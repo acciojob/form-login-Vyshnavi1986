@@ -7,5 +7,5 @@ function getFormValue() {
     var lastName = form.elements['lname'].value;
     
     // Alert the first and last name
-    alert("First Name: " + fname + "\nlname: " + lastName);
+    alert("First Name: " + fname + "\nLast Name: " + lname);
 }
