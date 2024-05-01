@@ -4,8 +4,8 @@ function getFormValue() {
     
     // Get the values of first and last name from the form
     var firstName = form.elements['fname'].value;
-    var lastName = form.elements['lastName'].value;
+    var lastName = form.elements['lname'].value;
     
     // Alert the first and last name
-    alert("First Name: " + fname + "\nLast Name: " + lastName);
+    alert("First Name: " + fname + "\nlname: " + lastName);
 }
